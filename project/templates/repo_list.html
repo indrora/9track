@@ -1,0 +1,21 @@
+
+{% import 'tape.svg' as tape %}
+
+    <div class="list-group">
+    {% for root in request.user.roots %}
+          <a href="{{url_for('root_explore', root_id=root.id)}}" class="list-group-item">
+            <div class="media">
+                <div class="media-left">
+                    <div class="media-object">
+                    {{ tape.tape(root.get_usage_pct(), false) |safe }}
+                    </div>
+                </div> 
+                <div class="media-body">
+                    <h4>{{root.name}}</h4>
+                    <p>{{ "{0[1]} files in {0[0]} directories".format(root.obj_count())  }} </p>
+                </div>
+                <div class="media-right media-middle"><i class="fa fa-chevron-right fa-3x">&nbsp;</i></div>
+            </div>
+          </a>
+    {% endfor %}
+    </div>

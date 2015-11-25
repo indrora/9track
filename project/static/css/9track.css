@@ -1,0 +1,119 @@
+/* Auto generated values:
+
+for x in range(0, 101):
+    print('.tape-fill-%d { transform: scale(%f); }' % (x, 0.35+(0.006*x) ) )
+
+ */
+.tape-fill-0 { transform: scale(0.350000); }
+.tape-fill-1 { transform: scale(0.356000); }
+.tape-fill-2 { transform: scale(0.362000); }
+.tape-fill-3 { transform: scale(0.368000); }
+.tape-fill-4 { transform: scale(0.374000); }
+.tape-fill-5 { transform: scale(0.380000); }
+.tape-fill-6 { transform: scale(0.386000); }
+.tape-fill-7 { transform: scale(0.392000); }
+.tape-fill-8 { transform: scale(0.398000); }
+.tape-fill-9 { transform: scale(0.404000); }
+.tape-fill-10 { transform: scale(0.410000); }
+.tape-fill-11 { transform: scale(0.416000); }
+.tape-fill-12 { transform: scale(0.422000); }
+.tape-fill-13 { transform: scale(0.428000); }
+.tape-fill-14 { transform: scale(0.434000); }
+.tape-fill-15 { transform: scale(0.440000); }
+.tape-fill-16 { transform: scale(0.446000); }
+.tape-fill-17 { transform: scale(0.452000); }
+.tape-fill-18 { transform: scale(0.458000); }
+.tape-fill-19 { transform: scale(0.464000); }
+.tape-fill-20 { transform: scale(0.470000); }
+.tape-fill-21 { transform: scale(0.476000); }
+.tape-fill-22 { transform: scale(0.482000); }
+.tape-fill-23 { transform: scale(0.488000); }
+.tape-fill-24 { transform: scale(0.494000); }
+.tape-fill-25 { transform: scale(0.500000); }
+.tape-fill-26 { transform: scale(0.506000); }
+.tape-fill-27 { transform: scale(0.512000); }
+.tape-fill-28 { transform: scale(0.518000); }
+.tape-fill-29 { transform: scale(0.524000); }
+.tape-fill-30 { transform: scale(0.530000); }
+.tape-fill-31 { transform: scale(0.536000); }
+.tape-fill-32 { transform: scale(0.542000); }
+.tape-fill-33 { transform: scale(0.548000); }
+.tape-fill-34 { transform: scale(0.554000); }
+.tape-fill-35 { transform: scale(0.560000); }
+.tape-fill-36 { transform: scale(0.566000); }
+.tape-fill-37 { transform: scale(0.572000); }
+.tape-fill-38 { transform: scale(0.578000); }
+.tape-fill-39 { transform: scale(0.584000); }
+.tape-fill-40 { transform: scale(0.590000); }
+.tape-fill-41 { transform: scale(0.596000); }
+.tape-fill-42 { transform: scale(0.602000); }
+.tape-fill-43 { transform: scale(0.608000); }
+.tape-fill-44 { transform: scale(0.614000); }
+.tape-fill-45 { transform: scale(0.620000); }
+.tape-fill-46 { transform: scale(0.626000); }
+.tape-fill-47 { transform: scale(0.632000); }
+.tape-fill-48 { transform: scale(0.638000); }
+.tape-fill-49 { transform: scale(0.644000); }
+.tape-fill-50 { transform: scale(0.650000); }
+.tape-fill-51 { transform: scale(0.656000); }
+.tape-fill-52 { transform: scale(0.662000); }
+.tape-fill-53 { transform: scale(0.668000); }
+.tape-fill-54 { transform: scale(0.674000); }
+.tape-fill-55 { transform: scale(0.680000); }
+.tape-fill-56 { transform: scale(0.686000); }
+.tape-fill-57 { transform: scale(0.692000); }
+.tape-fill-58 { transform: scale(0.698000); }
+.tape-fill-59 { transform: scale(0.704000); }
+.tape-fill-60 { transform: scale(0.710000); }
+.tape-fill-61 { transform: scale(0.716000); }
+.tape-fill-62 { transform: scale(0.722000); }
+.tape-fill-63 { transform: scale(0.728000); }
+.tape-fill-64 { transform: scale(0.734000); }
+.tape-fill-65 { transform: scale(0.740000); }
+.tape-fill-66 { transform: scale(0.746000); }
+.tape-fill-67 { transform: scale(0.752000); }
+.tape-fill-68 { transform: scale(0.758000); }
+.tape-fill-69 { transform: scale(0.764000); }
+.tape-fill-70 { transform: scale(0.770000); }
+.tape-fill-71 { transform: scale(0.776000); }
+.tape-fill-72 { transform: scale(0.782000); }
+.tape-fill-73 { transform: scale(0.788000); }
+.tape-fill-74 { transform: scale(0.794000); }
+.tape-fill-75 { transform: scale(0.800000); }
+.tape-fill-76 { transform: scale(0.806000); }
+.tape-fill-77 { transform: scale(0.812000); }
+.tape-fill-78 { transform: scale(0.818000); }
+.tape-fill-79 { transform: scale(0.824000); }
+.tape-fill-80 { transform: scale(0.830000); }
+.tape-fill-81 { transform: scale(0.836000); }
+.tape-fill-82 { transform: scale(0.842000); }
+.tape-fill-83 { transform: scale(0.848000); }
+.tape-fill-84 { transform: scale(0.854000); }
+.tape-fill-85 { transform: scale(0.860000); }
+.tape-fill-86 { transform: scale(0.866000); }
+.tape-fill-87 { transform: scale(0.872000); }
+.tape-fill-88 { transform: scale(0.878000); }
+.tape-fill-89 { transform: scale(0.884000); }
+.tape-fill-90 { transform: scale(0.890000); }
+.tape-fill-91 { transform: scale(0.896000); }
+.tape-fill-92 { transform: scale(0.902000); }
+.tape-fill-93 { transform: scale(0.908000); }
+.tape-fill-94 { transform: scale(0.914000); }
+.tape-fill-95 { transform: scale(0.920000); }
+.tape-fill-96 { transform: scale(0.926000); }
+.tape-fill-97 { transform: scale(0.932000); }
+.tape-fill-98 { transform: scale(0.938000); }
+.tape-fill-99 { transform: scale(0.944000); }
+.tape-fill-100{ transform: scale(0.950000); }
+
+@keyframes spinner {
+    0%   { transform: rotate(10deg);   }
+    10%  { transform: rotate(-180deg); }
+    50%  { transform: rotate(720deg);  }
+    80%  { transform: rotate(-90deg);  }
+    100% { transform: rotate(0deg);    }
+}
+.root-scanning {
+    animation: spinner 5s ease infinite;
+}
+

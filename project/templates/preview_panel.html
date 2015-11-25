@@ -1,0 +1,45 @@
+{% extends 'boostrap.html' %}
+{% block extra_head %}
+<link rel="stylesheet" href="{{url_for('static', filename='css/preview.css')}}" >
+{%endblock %}
+{% block body %}
+    <div class="container">
+        
+{% if previews %}
+      <div class="header clearfix">
+        <nav>
+          <ul id="previewlist" class="nav nav-pills pull-right">
+            {% for tpreview in previews %}
+                <li role="presentation"><a href="#preview-{{tpreview.id}}" data-toggle="tab"><i class="fa fa-fw fa-{{tpreview.icon}}">&nbsp;</i> {{tpreview.name}}</a></li>
+            {% endfor %}
+                <li><a href="{{url_for('get_object_contents', object_id=object.id, action='dl')}}"><i class="fa fa-download">Download</i></a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">{{object.filename}}</h3>
+      </div>
+      <div class="tab-content">
+      {%for tpreview in previews %}
+      <div class="tab-pane preview" role="tabpanel" id="preview-{{tpreview.id}}" class="preview">
+          {{tpreview.content|safe}}
+      </div>
+      {% endfor %}
+      </div>
+{% else %}
+
+    <div class="jumbotron">
+        <h1>{{object.filename}}</h1>
+        <p>{{object.get_filesize(True)}}</p>
+        <p><a class="btn btn-primary btn-large" href="{{url_for('get_object_contents', object_id=object.id, action='dl')}}">Download</a></p>    
+    </div>
+
+{% endif %}
+
+    </div>
+{% endblock %}
+{% block extra_js %}
+
+<script type="text/javascript">
+$("#previewlist a:first").tab('show')
+</script>
+
+{% endblock %}

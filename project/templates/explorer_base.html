@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+<div class="col-xs-12 col-sm-3 col-lg-2">
+<ul class="uk-nav uk-nav-side">
+    {% include 'repo_list.html' %}
+</ul>
+</div>
+<div class="col-xs-12 col-sm-9 col-lg-10">
+{%block file_list %}
+
+<div class="text-center"><h1 class="text-muted">Select a root</h1>
+</div>
+
+{% endblock %}
+</div>
+
+
+{% endblock %}

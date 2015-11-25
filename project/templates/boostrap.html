@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{%if title %}{{ title }} - {% endif %}➒track</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.css') }}" rel="stylesheet" >
+    <link href="{{ url_for('static', filename='css/theme.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/font-awesome.css')}}" rel="stylesheet" >
+    <link href="{{ url_for('static', filename='css/9track.css') }}" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    {% block extra_head %}
+    {% endblock %}
+</head>
+<body>
+{% block body %}
+{% endblock %}
+    <script src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.js') }}"></script>
+{% block extra_js %}
+{% endblock %}
+</body>
+</html>
