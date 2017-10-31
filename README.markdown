@@ -1,4 +1,6 @@
 # 9track - A tracking document store.
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Findrora%2F9track.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Findrora%2F9track?ref=badge_shield)
+
 
 9track is a lightweight document tracking store.
 
@@ -15,3 +17,7 @@ Update configuration in `src/project/config/__init__.py to specify database loca
 
     python runserver.py
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Findrora%2F9track.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Findrora%2F9track?ref=badge_large)
